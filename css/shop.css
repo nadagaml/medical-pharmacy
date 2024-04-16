@@ -1,0 +1,115 @@
+/* --------------------------- shop page---------------------- */
+
+.carousel-inner ,.carousel-item{
+    border-radius: 30px;
+}
+/* .slider{
+    background-color: #039ef1;
+    margin:350px 350px;
+} */
+.container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between ;
+    padding: 30px 0;
+}
+.card{
+    min-height: 350px;
+    min-width: 150px;
+    max-width: 250px;
+    border-radius: 50px;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.5);
+    margin: 20px;
+}
+.card-img{
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card-img img{
+    width: 100%;
+    height: 200px;
+    transition: all ease-in-out .4s;
+    
+}
+.card-img img:hover{
+    transform: rotate(-10deg) scale(1.2);
+}
+.card-body h3{
+    color: #045d8d;
+    font-family: sans-serif
+}
+.card-body h2{
+    color: red;
+}
+
+.card-body{
+    padding: 1rem;
+    text-align: center;
+}
+/* .card-body h2 ,.card-body h3 ,.card-body p{
+    line-height: 25px;
+} */
+.card-body p{
+    text-decoration: line-through;
+    color: #bdbebe;
+}
+.card-body .rating-icons{
+    color: #eecb02;
+    font-size: 15px;
+    margin: 5px 0;
+}
+.card-body button{
+    border: 0;
+    width: 80%;
+    border-radius: 10%;
+    padding: 0.5rem;
+}
+.card-body button:hover{
+    background-color: #039ef1;
+}
+.card-body .panadol-1:hover{
+    background-color: rgb(255, 59, 125) !important;
+}
+.card-body .panadol-2:hover{
+    background-color: rgb(143, 143, 143) !important;
+}
+.card-body .panadol-3:hover{
+    background-color: rgb(203, 1, 1) !important;
+}
+
+
+
+.summer{
+    width: 100%;
+} 
+
+/* grid */
+
+.grid-1{
+    position: absolute;
+    right: 5%;
+    height: 500px;
+}
+
+/*choose tabs*/
+.nav-choose{
+background-color: #bdbebe;
+}
+/* .nada{
+    background-color: #039ef1;
+} */
+
+.nada{
+    border: #039ef1 200px;
+}
+.nada li{
+   /* background-color: #edecec; */
+   /* width: 250px; */
+   
+    padding: .2rem;
+    font-size: larger;
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border-radius: 30px; */
+}
